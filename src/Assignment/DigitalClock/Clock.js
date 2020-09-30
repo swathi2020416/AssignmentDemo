@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Switch from "react-switch";
 
 class Clock extends Component {
+    
     constructor(props) {
         super(props)
         this.state = { checked: false};
