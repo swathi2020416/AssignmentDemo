@@ -8,7 +8,7 @@ class Buttons extends Component {
                 
                 <div>
                 <button name="CE" onClick={e => this.props.onClick(e.target.name)}>CE</button>
-                 <button name="C" onClick={e => this.props.onClick(e.target.name)}>C</button><br/>
+                 <button name="Clear" onClick={e => this.props.onClick(e.target.name)}>Clear</button><br/>
                 </div>
 
 

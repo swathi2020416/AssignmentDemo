@@ -16,7 +16,7 @@ import Buttons from "./Buttons"
             this.calculate()
         }
 
-        else if(button === "C"){
+        else if(button === "Clear"){
             this.reset()
         }
         else if(button === "CE"){
