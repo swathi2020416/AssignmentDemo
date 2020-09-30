@@ -25,14 +25,6 @@ class Clock extends Component {
         this.setState({checked})
     }
 
-    
-    
-    // state = {
-    //     time: new Date()
-    //     //curTime : new Date().toLocaleString(),
-    //   };
-     
-
     render() {
        
         return (
@@ -42,7 +34,6 @@ class Clock extends Component {
                  <div className="container">
                     <div>
                         <div>
-                            {/* <button onClick={this.showHide} className="button-primary btn">{this.changeName()}</button> */}
                             <Switch  id="normal-switch" onChange={this.showHide} checked={this.state.checked}/>
                             { this.state.show && 
                                 <div>
@@ -52,16 +43,8 @@ class Clock extends Component {
                             }
                           
                         </div> 
-                       
-               
-                
-               
-            </div>
-            </div>
-            </div>
-
-
-
+                        </div>
+                         </div></div>
         )
     }
 }
